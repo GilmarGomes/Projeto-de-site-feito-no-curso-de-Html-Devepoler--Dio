@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clínica Interna SP</title>
+    <link rel="stylesheet" href="./assets/base.css" />
+    <style>
+      .maps {
+        margin: 0px auto;
+      }
+      .content {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        flex-grow: 1;
+        padding-top: 2rem;
+      }
+      @media screen and (max-width: 768px) {
+        .maps iframe {
+          margin: 0px auto;
+          width: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="./assets/img/Logo-Clinica.png"
+        alt="Logo da clínica Medicina interna"
+      />
+    </div>
+    <div>
+      <button type="button" id="btn">
+        <img
+          src="./assets/img/cardapio.png"
+          width="35px"
+          height="24px"
+          alt=""
+        />
+      </button>
+    </div>
+    <div class="menu" id="menu">
+      <ul class="menu-list">
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="sobre-a-clinica.html">Sobre a clínica</a></li>
+        <li>
+          <a href="./horário-de-atendimento.html">Horário de Atendimento</a>
+        </li>
+        <li><a href="contatos.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <div class="main">
+        <div class="content">
+          <div class="title">
+            <h3>Contatos</h3>
+          </div>
+          <p>
+            Endereço: Av. Saúde e Bem-estar, 123 - Bairro Felicidade - São
+            Paulo/SP Telefone: (11) 5555-5555 E-mail:
+            contato@medicinainternasp.com.br Siga-nos nas redes sociais para
+            ficar por dentro das novidades e dicas de saúde!
+          </p>
+        </div>
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234718.8325853389!2d-47.20203332196642!3d-23.189107378083516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf24293cc00531%3A0xf686a1c1163c6bbb!2zSnVuZGlhw60gLSBBZ2xvbWVyYcOnw6NvIFVyYmFuYSBkZSBKdW5kaWHDrSwgSnVuZGlhw60gLSBTUA!5e0!3m2!1spt-BR!2sbr!4v1691190844756!5m2!1spt-BR!2sbr"
+            width="700"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Endereço: Av. Saúde e Bem-estar, 123 - Bairro Felicidade - São
+          Paulo/SP Telefone: (11) 5555-5555 E-mail:
+          contato@medicinainternasp.com.br
+        </p>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

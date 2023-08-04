@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clínica Interna SP</title>
+    <link rel="stylesheet" href="./assets/base.css" />
+    <style>
+      table,
+      th,
+      tr,
+      td {
+        /* border: 1px solid; */
+        margin: 4rem auto;
+        padding: 10px;
+      }
+      table th {
+        background-color: black;
+        color: #fff;
+      }
+      table tbody tr:nth-child(even) td {
+        background-color: rgb(188, 188, 188);
+      }
+      table tbody tr:hover td {
+        background-color: rgb(143, 143, 143);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="./assets/img/Logo-Clinica.png"
+        alt="Logo da clínica Medicina interna"
+      />
+    </div>
+    <div>
+      <button type="button" id="btn">
+        <img
+          src="./assets/img/cardapio.png"
+          width="35px"
+          height="24px"
+          alt=""
+        />
+      </button>
+    </div>
+    <div class="menu" id="menu">
+      <ul class="menu-list">
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="sobre-a-clinica.html">Sobre a clínica</a></li>
+        <li>
+          <a href="./horário-de-atendimento.html">Horário de Atendimento</a>
+        </li>
+        <li><a href="contatos.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <div class="main">
+        <div class="content">
+          <div class="title">
+            <h3>
+              <h3>Horário de Atendimento</h3>
+            </h3>
+            <table
+              sumary="Tabela de atendimento médico da clínica"
+              cellspacing="0"
+            >
+              <thead>
+                <th>serviços</th>
+                <th>segunda a sexta</th>
+                <th>sábados</th>
+                <th>feriados</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>clinico geral</td>
+                  <td>08h - 19h</td>
+                  <td>08h - 14h</td>
+                  <td>08h - 14h</td>
+                </tr>
+                <tr>
+                  <td>psicologia</td>
+                  <td>08h - 19h</td>
+                  <td>08h - 14h</td>
+                  <td>08h - 14h</td>
+                </tr>
+                <tr>
+                  <td>Pediatria</td>
+                  <td>08h - 19h</td>
+                  <td>08h - 14h</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Oftalmologia</td>
+                  <td>08h - 19h</td>
+                  <td>08h - 14h</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Endereço: Av. Saúde e Bem-estar, 123 - Bairro Felicidade - São
+          Paulo/SP Telefone: (11) 5555-5555 E-mail:
+          contato@medicinainternasp.com.br
+        </p>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
